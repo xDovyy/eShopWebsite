@@ -11,6 +11,6 @@ xhr.onreadystatechange = () => {
         itemCards.innerHTML = htmlCode;
     }
 };
-xhr.open('GET', 'http://localhost:8080/items/05633451-84ae-444d-aff8-f27511b10406', true);
+xhr.open('GET', 'http://78.58.205.35:25565/items/05633451-84ae-444d-aff8-f27511b10406', true);
 xhr.setRequestHeader('Accept', 'application/json');
 xhr.send(null);
