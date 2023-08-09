@@ -36,3 +36,5 @@ xhr.onreadystatechange = () => {
 xhr.open('GET', 'http://78.58.205.35:25565/items', true);
 xhr.setRequestHeader('Accept', 'application/json');
 xhr.send(null);
+
+//hmm
