@@ -18,7 +18,7 @@ xhr.onreadystatechange = () => {
               <!-- Product name-->
               <h5 class="fw-bolder">${singleItem.name}</h5>
               <!-- Product price-->
-              <p>${singleItem.price}</p>
+              <p>${singleItem.price}€</p>
             </div>
           </div>
           <!-- Product actions-->
