@@ -1,4 +1,6 @@
 let category;
+getItem()
+getRelatableItems()
 function getItem(){
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
@@ -80,6 +82,3 @@ function getRelatableItems(){
     xhr.setRequestHeader('Accept', 'application/json');
     xhr.send(null);
 }
-
-getItem()
-getRelatableItems()
