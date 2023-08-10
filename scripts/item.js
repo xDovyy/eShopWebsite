@@ -1,6 +1,4 @@
 let category;
-getItem()
-getRelatableItems()
 function getItem(){
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
