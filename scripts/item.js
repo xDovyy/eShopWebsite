@@ -61,7 +61,7 @@ function getRelatableItems(){
                     <!-- Product name-->
                     <h5 className="fw-bolder">${singleItem.name}</h5>
                     <!-- Product price-->
-                    <p>${singleItem.price}</p>
+                    <p>${singleItem.price}€</p>
                 </div>
             </div>
             <!-- Product actions-->
@@ -80,3 +80,6 @@ function getRelatableItems(){
     xhr.setRequestHeader('Accept', 'application/json');
     xhr.send(null);
 }
+
+getItem()
+getRelatableItems()
